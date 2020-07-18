@@ -4,4 +4,19 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DPShoesCoreApp.Data.EF\DPShoesCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\DPShoesCoreApp.Data\DPShoesCoreApp.Data.csproj" />
+    <ProjectReference Include="..\DPShoesCoreApp.Utilities\DPShoesCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
 </Project>
