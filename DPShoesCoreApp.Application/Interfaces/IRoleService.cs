@@ -8,7 +8,7 @@ namespace DPShoesCoreApp.Application.Interfaces
 {
     public interface IRoleService
     {
-        Task<bool> AddAsync(AppRoleViewModel userVm);
+        Task<bool> AddAsync(AnnouncementViewModel announcement, List<AnnouncementUserViewModel> announcementUsers, AppRoleViewModel userVm);
 
         Task DeleteAsync(Guid id);
 

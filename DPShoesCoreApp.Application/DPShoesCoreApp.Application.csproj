@@ -15,8 +15,4 @@
     <ProjectReference Include="..\DPShoesCoreApp.Utilities\DPShoesCoreApp.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Implementation\" />
-  </ItemGroup>
-
 </Project>
